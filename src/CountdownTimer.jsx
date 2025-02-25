@@ -262,7 +262,7 @@ const CountdownTimer = () => {
   );
 
   return (
-    <div className={`flex flex-col items-center justify-center min-h-screen bg-gradient-to-br ${themes[theme].gradient} p-4 font-sans relative overflow-hidden`}>
+    <div className={`flex flex-col items-center justify-center h-dvh bg-gradient-to-br ${themes[theme].gradient} p-4 font-sans relative overflow-hidden`}>
       {/* Background Scribbles */}
       <ScribbleWavyLine className="top-10 left-0 w-64 h-32 transform rotate-12" />
       <ScribbleSpiral className="top-20 right-10 w-40 h-40 transform -rotate-6" />
